@@ -5,15 +5,12 @@ https://counter.morishin.me/
 
 ## Run
 ```sh
-elm-reactor
-open http://localhost:8000/Main.elm
+npx elm reactor
+open http://localhost:8000/src/Main.elm
 ```
 or
 
 ```sh
-elm-make Main.elm
+npx elm make src/Main.elm
 open index.html
 ```
-
-## Deploy
-`deploy.sh` is a script to upload HTML file to AWS S3.
